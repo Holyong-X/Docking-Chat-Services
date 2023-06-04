@@ -20,4 +20,7 @@ public class DockingChatServicesApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         new Thread(nettyWebSocketServer).start();
     }
+
+
+    //线程启动
 }
